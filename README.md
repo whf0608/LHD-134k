@@ -26,7 +26,7 @@ wget -i post.txt
 ```
 
 #### Data Location
-<img width="456" height="319" alt="image" src="https://github.com/user-attachments/assets/b8a40b02-4b9b-4b51-917c-368202c63675" />
+<img width="100%" height="319" alt="image" src="https://github.com/user-attachments/assets/b8a40b02-4b9b-4b51-917c-368202c63675" />
 
 [View](https://github.com/whf0608/LHD-134k/blob/main/disaster_dataset_data_down_url_txt/point_geojson.geojson)
 
