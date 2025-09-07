@@ -45,7 +45,10 @@ python make_datatset.py
 ```
 
 
-### **Model**
+### 🚀 **Model**
+
+<img width="100%" height="100%" alt="image"  alt="image" src="https://github.com/user-attachments/assets/a968dc64-ce2f-444f-a7ba-faf392450a71" />
+
 
 ### 📊 **Experimental Results**
 | Model | Backbone | Building IoU | Building Acc | Damaged Building IoU | Damaged Building Acc | aAcc | mIoU | mAcc |
