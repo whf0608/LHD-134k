@@ -62,8 +62,8 @@ DBSeg-SAM achieves **+15% F1-score improvement** over baselines in cross-region 
 ### 🛠️ **Installation & Usage**
 ```bash
 # Clone repository
-git clone https://github.com/your-username/repo-name.git
-cd repo-name
+git clone https://github.com/whf0608/LHD-134k.git
+cd LHD-134k
 
 # Install dependencies
 pip install -r requirements.txt
