@@ -1,0 +1,6 @@
+https://opendata.digitalglobe.com/events/hurricane-laura/post-event/2020-08-27/10300100A9CE1200/10300100A9CE1200.tif
+https://opendata.digitalglobe.com/events/hurricane-laura/post-event/2020-08-27/10300100AA912600/10300100AA912600.tif
+https://opendata.digitalglobe.com/events/hurricane-laura/post-event/2020-08-27/10300100AC604000/10300100AC604000.tif
+https://opendata.digitalglobe.com/events/hurricane-laura/post-event/2020-08-27/10300100ADB4FD00/10300100ADB4FD00.tif
+https://opendata.digitalglobe.com/events/hurricane-laura/post-event/2020-08-27/10300100AF1CF500/10300100AF1CF500.tif
+https://opendata.digitalglobe.com/events/hurricane-laura/post-event/2020-08-27/105001001F5D7000/105001001F5D7000.tif

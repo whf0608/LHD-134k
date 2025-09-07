@@ -1,0 +1,3 @@
+https://opendata.digitalglobe.com/events/canterbury-floods21/post-event/2021-06-02/10300100BF508500/10300100BF508500.tif
+https://opendata.digitalglobe.com/events/canterbury-floods21/post-event/2021-06-02/10300100BF92D800/10300100BF92D800.tif
+https://opendata.digitalglobe.com/events/canterbury-floods21/post-event/2021-06-03/1050010024B53800/1050010024B53800.tif

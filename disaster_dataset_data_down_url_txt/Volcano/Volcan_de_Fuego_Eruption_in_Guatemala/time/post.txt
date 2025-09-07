@@ -1,0 +1,14 @@
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-06/f5276ce7-6be6-4c40-a4bf-ac8e17fee5a5-inv/f5276ce7-6be6-4c40-a4bf-ac8e17fee5a5-inv_granule_R12C1.tif
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-06/f5276ce7-6be6-4c40-a4bf-ac8e17fee5a5-inv/f5276ce7-6be6-4c40-a4bf-ac8e17fee5a5-inv_granule_R13C1.tif
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-22/104001003E575F00/1310123.tif
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-22/104001003E575F00/1310123.tif.ovr
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-22/104001003E575F00/1310132.tif
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-22/104001003E575F00/1310132.tif.ovr
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-22/104001003E575F00/1310301.tif
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-22/104001003E575F00/1310301.tif.ovr
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-22/104001003E575F00/1310303.tif
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-22/104001003E575F00/1310303.tif.ovr
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-22/104001003E575F00/1310310.tif
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-22/104001003E575F00/1310310.tif.ovr
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-22/104001003E575F00/1310312.tif
+https://opendata.digitalglobe.com/Volcan-de-Fuego-Eruption-in-Guatemala/post-event/2018-06-22/104001003E575F00/1310312.tif.ovr

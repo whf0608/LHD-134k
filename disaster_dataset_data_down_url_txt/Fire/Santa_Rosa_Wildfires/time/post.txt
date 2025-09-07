@@ -1,0 +1,8 @@
+https://opendata.digitalglobe.com/events/santa-rosa-wildfires/post-event/2019-07-29/10500100179F7800/10500100179F7800.tif
+https://opendata.digitalglobe.com/events/santa-rosa-wildfires/post-event/2019-10-17/1040010052A83000/1040010052A83000.tif
+https://opendata.digitalglobe.com/events/santa-rosa-wildfires/post-event/2019-11-04/103001009D00B000/103001009D00B000.tif
+https://opendata.digitalglobe.com/events/santa-rosa-wildfires/pre-event/2018-02-02/1040010038A0A900/1040010038A0A900.tif
+https://opendata.digitalglobe.com/events/santa-rosa-wildfires/pre-event/2018-03-31/104001003A4DAE00/104001003A4DAE00.tif
+https://opendata.digitalglobe.com/events/santa-rosa-wildfires/pre-event/2018-06-11/103001007F814E00/103001007F814E00.tif
+https://opendata.digitalglobe.com/events/santa-rosa-wildfires/pre-event/2018-10-30/10300100884B6C00/10300100884B6C00.tif
+https://opendata.digitalglobe.com/events/santa-rosa-wildfires/pre-event/2019-03-11/1050010015137B00/1050010015137B00.tif

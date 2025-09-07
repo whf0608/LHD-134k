@@ -1,0 +1,6 @@
+https://opendata.digitalglobe.com/events/dixie-fire-ca21/post-event/2021-08-08/10300100C30EB400/10300100C30EB400.tif
+https://opendata.digitalglobe.com/events/dixie-fire-ca21/post-event/2021-08-08/10300100C38D1100/10300100C38D1100.tif
+https://opendata.digitalglobe.com/events/dixie-fire-ca21/post-event/2021-08-08/1050010026473D00/1050010026473D00.tif
+https://opendata.digitalglobe.com/events/dixie-fire-ca21/post-event/2021-08-08/1050010026473F00/1050010026473F00.tif
+https://opendata.digitalglobe.com/events/dixie-fire-ca21/post-event/2021-08-09/10200100B5445000/10200100B5445000.tif
+https://opendata.digitalglobe.com/events/dixie-fire-ca21/post-event/2021-08-09/10300100C347CC00/10300100C347CC00.tif

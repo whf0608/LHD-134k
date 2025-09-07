@@ -1,0 +1,6 @@
+https://opendata.digitalglobe.com/events/nyiragongo-eruption-post/post-event/2021-05-22/105001002475C500/105001002475C500.tif
+https://opendata.digitalglobe.com/events/nyiragongo-eruption-post/post-event/2021-05-22/105001002475C600/105001002475C600.tif
+https://opendata.digitalglobe.com/events/nyiragongo-eruption-post/post-event/2021-05-24/10200100B153F400/10200100B153F400.tif
+https://opendata.digitalglobe.com/events/nyiragongo-eruption-post/vector-data/2021-05-24/html/nyiragongo-eruption-visualization.html
+https://opendata.digitalglobe.com/events/nyiragongo-eruption-post/post-event/2021-05-25/1050010024853F00/1050010024853F00.tif
+https://opendata.digitalglobe.com/events/nyiragongo-eruption-post/post-event/2021-05-25/1050010024854000/1050010024854000.tif
