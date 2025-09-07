@@ -1,7 +1,5 @@
 # Instantaneous Multi-Hazard Disaster Response: <small>Damaged Building Detection from Single Post-Disaster HRRS Imagery for Rapid Global Mapping in Data-Sparse Regions Without Pre-Disaster Baselines</small>  
 
-
-
 ---
 
 ### 🌍 **Project Overview**
@@ -29,7 +27,7 @@ wget -i post.txt
 
 #### Data Location
 
-
+[View](https://github.com/whf0608/LHD-134k/blob/main/disaster_dataset_data_down_url_txt/point_geojson.geojson)
 
 
 ### 📊 **Experimental Results**
