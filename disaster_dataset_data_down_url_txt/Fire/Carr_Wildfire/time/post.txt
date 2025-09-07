@@ -1,0 +1,7 @@
+https://opendata.digitalglobe.com/events/carr-fire/post-event/2018-08-03/104001004020F400/104001004020F400.tif
+https://opendata.digitalglobe.com/events/carr-fire/post-event/2018-08-07/10300100833A1700/10300100833A1700.tif
+https://opendata.digitalglobe.com/events/carr-fire/post-event/2018-08-12/1030010082980500/1030010082980500.tif
+https://opendata.digitalglobe.com/events/carr-fire/post-event/2018-08-21/103001008372E000/103001008372E000.tif
+https://opendata.digitalglobe.com/events/carr-fire/post-event/2018-09-16/1040010041515800/1040010041515800.tif
+https://opendata.digitalglobe.com/events/carr-fire/post-event/2018-10-10/104001004262FC00/104001004262FC00.tif
+https://opendata.digitalglobe.com/events/carr-fire/post-event/2018-10-30/103001008856B300/103001008856B300.tif

@@ -1,0 +1,4 @@
+https://opendata.digitalglobe.com/events/haiti-earthquake/post-event/2010-01-15/1030010003004400/1030010003004400.tif
+https://opendata.digitalglobe.com/events/haiti-earthquake/post-event/2010-01-15/1030010003399600/1030010003399600.tif
+https://opendata.digitalglobe.com/events/haiti-earthquake/post-event/2010-01-15/1030010003A27E00/1030010003A27E00.tif
+https://opendata.digitalglobe.com/events/haiti-earthquake/post-event/2010-01-15/1030010003C29400/1030010003C29400.tif

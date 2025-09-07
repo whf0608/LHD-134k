@@ -1,0 +1,5 @@
+https://opendata.digitalglobe.com/events/california-wildfires/post-event/2018-12-06/1040010045992600/1040010045992600.tif
+https://opendata.digitalglobe.com/events/california-wildfires/post-event/2018-12-06/1040010045CFBD00/1040010045CFBD00.tif
+https://opendata.digitalglobe.com/events/california-wildfires/post-event/2019-06-10/1030010093A85B00/1030010093A85B00.tif
+https://opendata.digitalglobe.com/events/california-wildfires/post-event/2019-06-12/104001004C79A500/104001004C79A500.tif
+https://opendata.digitalglobe.com/events/california-wildfires/post-event/2019-09-05/103001009A4A1000/103001009A4A1000.tif

@@ -1,0 +1,4 @@
+https://opendata.digitalglobe.com/events/western-europe-flooding21/post-event/2021-07-18/10500500E6DD3C00/10500500E6DD3C00.tif
+https://opendata.digitalglobe.com/events/western-europe-flooding21/pre-event/2021-07-11/10200100B396B200/10200100B396B200.tif
+https://opendata.digitalglobe.com/events/western-europe-flooding21/pre-event/2021-07-11/10200100B49A4000/10200100B49A4000.tif
+https://opendata.digitalglobe.com/events/western-europe-flooding21/post-event/2021-07-21/1040050035DC3B00/1040050035DC3B00.tif

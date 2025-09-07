@@ -1,0 +1,3 @@
+https://opendata.digitalglobe.com/events/cyclone-yutu/post-event/2018-10-26/10400100458B5A00/10400100458B5A00.tif
+https://opendata.digitalglobe.com/events/cyclone-yutu/post-event/2018-11-05/103001008725DA00/103001008725DA00.tif
+https://opendata.digitalglobe.com/events/cyclone-yutu/post-event/2018-11-05/1030010087A80200/1030010087A80200.tif

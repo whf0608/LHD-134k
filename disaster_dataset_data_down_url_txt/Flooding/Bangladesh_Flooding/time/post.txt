@@ -1,0 +1,2 @@
+https://maxar-opendata.s3.us-west-2.amazonaws.com/events/bangladesh-flooding22/pre/Vivid_Standard_30_e46b4ef6-615b-4b43-bef3-27e97bd42406-APS/Vivid_Standard_30_e46b4ef6-615b-4b43-bef3-27e97bd42406-APS_overview.geojson
+https://maxar-opendata.s3.us-west-2.amazonaws.com/events/bangladesh-flooding22/pre/Vivid_Standard_30_e46b4ef6-615b-4b43-bef3-27e97bd42406-APS/manifest.txt

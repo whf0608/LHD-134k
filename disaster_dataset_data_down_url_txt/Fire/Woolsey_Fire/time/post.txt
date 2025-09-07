@@ -1,0 +1,3 @@
+https://opendata.digitalglobe.com/events/woolsey-fire/pre-event/2018-11-18/105001001331B000/105001001331B000.tif
+https://opendata.digitalglobe.com/events/woolsey-fire/pre-event/2019-08-18/10300100969FEB00/10300100969FEB00.tif
+https://opendata.digitalglobe.com/events/woolsey-fire/pre-event/2019-10-29/104001005305AF00/104001005305AF00.tif

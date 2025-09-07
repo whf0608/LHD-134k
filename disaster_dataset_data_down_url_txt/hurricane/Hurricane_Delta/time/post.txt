@@ -1,0 +1,3 @@
+https://opendata.digitalglobe.com/events/hurricane-delta/post-event/2020-10-10/10300100ACCCE900/10300100ACCCE900.tif
+https://opendata.digitalglobe.com/events/hurricane-delta/post-event/2020-10-10/10300100AD866C00/10300100AD866C00.tif
+https://opendata.digitalglobe.com/events/hurricane-delta/post-event/2020-10-10/105001002048E500/105001002048E500.tif

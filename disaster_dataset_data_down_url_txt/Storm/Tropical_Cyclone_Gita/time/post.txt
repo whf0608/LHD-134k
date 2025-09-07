@@ -1,0 +1,10 @@
+https://opendata.digitalglobe.com/events/cyclone-gita/post-event/2018-02-13/10300100769B0700/10300100769B0700.tif
+https://opendata.digitalglobe.com/events/cyclone-gita/post-event/2018-02-13/1030010078388B00/1030010078388B00.tif
+https://opendata.digitalglobe.com/events/cyclone-gita/post-event/2018-02-13/103001007890A600/103001007890A600.tif
+https://opendata.digitalglobe.com/events/cyclone-gita/post-event/2018-02-13/1030010079984400/1030010079984400.tif
+https://opendata.digitalglobe.com/events/cyclone-gita/post-event/2018-02-13/1030010079CD0300/1030010079CD0300.tif
+https://opendata.digitalglobe.com/events/cyclone-gita/post-event/2018-02-13/10400100384C5500/10400100384C5500.tif
+https://opendata.digitalglobe.com/events/cyclone-gita/post-event/2018-02-13/1040010038876D00/1040010038876D00.tif
+https://opendata.digitalglobe.com/events/cyclone-gita/post-event/2018-02-19/1040010039783C00/1040010039783C00.tif
+https://opendata.digitalglobe.com/events/cyclone-gita/post-event/2018-02-21/103001007A697100/103001007A697100.tif
+https://opendata.digitalglobe.com/events/cyclone-gita/post-event/2018-02-24/10400100375B6500/10400100375B6500.tif

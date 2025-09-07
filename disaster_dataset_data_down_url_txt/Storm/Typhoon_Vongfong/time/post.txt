@@ -1,0 +1,5 @@
+https://opendata.digitalglobe.com/events/typhoon-vongfong/post-event/2020-05-15/104001005D846E00/104001005D846E00.tif
+https://opendata.digitalglobe.com/events/typhoon-vongfong/weather-data/2020-05-15/weather/vongfong_weather_data.pdf
+https://opendata.digitalglobe.com/events/typhoon-vongfong/pre-event/2020-04-01/104001005B86F300/104001005B86F300.tif
+https://opendata.digitalglobe.com/events/typhoon-vongfong/pre-event/2020-04-26/1040010057B0CF00/1040010057B0CF00.tif
+https://opendata.digitalglobe.com/events/typhoon-vongfong/pre-event/2020-04-26/104001005A9FF700/104001005A9FF700.tif
