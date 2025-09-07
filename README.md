@@ -19,7 +19,15 @@ This project addresses the critical challenge of **rapid damaged building detect
   - Trained exclusively on LHD-134k for maximum generalization
 
 ### 🔬 **LHD-134k Dataset**
+#### Down Data
+```bash
+# data url
+cd disaster_dataset_data_down_url_txt\Earthquake\Afghanistan_Earthquake\time
 
+# downing
+wget -i post.txt
+
+```
 
 ### 📊 **Experimental Results**
 | Model | Backbone | Building IoU | Building Acc | Damaged Building IoU | Damaged Building Acc | aAcc | mIoU | mAcc |
