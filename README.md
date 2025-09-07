@@ -1,7 +1,6 @@
 # Instantaneous Multi-Hazard Disaster Response
 ## Damaged Building Detection from Single Post-Disaster HRRS Imagery for Rapid Global Mapping in Data-Sparse Regions Without Pre-Disaster Baselines
 
-[![GitHub Stars](https://img.shields.io/github/stars/whf0608/LHD-134k?style=social)](https://github.com/whf0608/LHD-134k/)
 
 
 ---
