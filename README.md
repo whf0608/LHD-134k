@@ -18,7 +18,7 @@ This project addresses the critical challenge of **rapid damaged building detect
   - Achieves state-of-the-art accuracy and robustness across unseen disaster scenarios
   - Trained exclusively on LHD-134k for maximum generalization
 
-### 🔬 **Technical Highlights**
+### 🔬 **LHD-134k Dataset**
 
 
 ### 📊 **Experimental Results**
