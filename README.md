@@ -23,11 +23,14 @@ This project addresses the critical challenge of **rapid damaged building detect
 ```bash
 # data url
 cd disaster_dataset_data_down_url_txt\Earthquake\Afghanistan_Earthquake\time
-
 # downing
 wget -i post.txt
-
 ```
+
+#### Data Location
+
+
+
 
 ### 📊 **Experimental Results**
 | Model | Backbone | Building IoU | Building Acc | Damaged Building IoU | Damaged Building Acc | aAcc | mIoU | mAcc |
