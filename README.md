@@ -31,6 +31,16 @@ wget -i post.txt
 [View](https://github.com/whf0608/LHD-134k/blob/main/disaster_dataset_data_down_url_txt/point_geojson.geojson)
 
 
+#### Make Tile
+```bash
+gdal2tiles.bat -p mercator  -z 5-20 -w leaflet -r average -a 0.0 /path/to/disaster_post.tid /path/save/
+```
+
+#### Make Dataset
+```bash
+gdal2tiles.bat -p mercator  -z 5-20 -w leaflet -r average -a 0.0 /path/to/disaster_post.tid /path/save/
+```
+
 ### 📊 **Experimental Results**
 | Model | Backbone | Building IoU | Building Acc | Damaged Building IoU | Damaged Building Acc | aAcc | mIoU | mAcc |
 |-------|----------|-------------|--------------|----------------------|----------------------|------|------|------|
