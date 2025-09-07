@@ -1,4 +1,4 @@
-# Instantaneous Multi-Hazard Disaster Response: <small>Damaged Building Detection from Single Post-Disaster HRRS Imagery for Rapid Global Mapping in Data-Sparse Regions Without Pre-Disaster Baselines</small>  
+# **Instantaneous Multi-Hazard Disaster Response**: <small>Damaged Building Detection from Single Post-Disaster HRRS Imagery for Rapid Global Mapping in Data-Sparse Regions Without Pre-Disaster Baselines</small>  
 
 ---
 
@@ -17,7 +17,7 @@ This project addresses the critical challenge of **rapid damaged building detect
   - Trained exclusively on LHD-134k for maximum generalization
 
 ### 🔬 **LHD-134k Dataset**
-#### Down Data
+#### 1. Down Data
 ```bash
 # data url
 cd disaster_dataset_data_down_url_txt\Earthquake\Afghanistan_Earthquake\time
@@ -25,21 +25,27 @@ cd disaster_dataset_data_down_url_txt\Earthquake\Afghanistan_Earthquake\time
 wget -i post.txt
 ```
 
-#### Data Location
+#### 2. Data Location
 <img width="100%" height="100%" alt="image" src="https://github.com/user-attachments/assets/b8a40b02-4b9b-4b51-917c-368202c63675" />
 
 [View](https://github.com/whf0608/LHD-134k/blob/main/disaster_dataset_data_down_url_txt/point_geojson.geojson)
 
-
-#### Make Tile
+#### 3. Make Tile
 ```bash
 gdal2tiles.bat -p mercator  -z 5-20 -w leaflet -r average -a 0.0 /path/to/disaster_post.tid /path/save/
 ```
+#### 4. Labeling Data
+[Qgis tools](https://qgis.org/download/)
 
-#### Make Dataset
+#### 5. Make Dataset
 ```bash
-gdal2tiles.bat -p mercator  -z 5-20 -w leaflet -r average -a 0.0 /path/to/disaster_post.tid /path/save/
+cd disaster_dataset_data_down_url_txt
+# runing make dataset
+python make_datatset.py
 ```
+
+
+### **Model**
 
 ### 📊 **Experimental Results**
 | Model | Backbone | Building IoU | Building Acc | Damaged Building IoU | Damaged Building Acc | aAcc | mIoU | mAcc |
