@@ -17,7 +17,7 @@ This project addresses the critical challenge of **rapid damaged building detect
 
 ### 🔬 **LHD-134k Dataset**  ([Download📥](https://github.com/whf0608/LHD-134k/releases/download/lhd134k/disasters_db_dataset_part0001.zip))
 
-<img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/141a7a66-aee8-4eff-8ea4-1e459caf99e3" />
+<img width="100%" height="100%" alt="image" src="https://github.com/user-attachments/assets/141a7a66-aee8-4eff-8ea4-1e459caf99e3" />
 
 #### 1. Down Data
 ```bash
