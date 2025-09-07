@@ -96,10 +96,8 @@ python detect.py --image path/to/post_disaster.tif --model_path models/dbseg_sam
 }
 ```
 
-### 🤝 **Contribution**
-Contributions are welcome! Please follow our [contribution guidelines](CONTRIBUTING.md). For major changes, open an issue first to discuss your proposed changes.
 
 ---
 
-*© 2025 State Key Laboratory of Information Engineering in Surveying, Wuhan University. Licensed under MIT.*
+*© 2025 State Key Laboratory of Information Engineering in Surveying, Wuhan University.
 ```
