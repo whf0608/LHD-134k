@@ -1,5 +1,4 @@
-# Instantaneous Multi-Hazard Disaster Response
-## Damaged Building Detection from Single Post-Disaster HRRS Imagery for Rapid Global Mapping in Data-Sparse Regions Without Pre-Disaster Baselines
+# Instantaneous Multi-Hazard Disaster Response: Damaged Building Detection from Single Post-Disaster HRRS Imagery for Rapid Global Mapping in Data-Sparse Regions Without Pre-Disaster Baselines
 
 
 
