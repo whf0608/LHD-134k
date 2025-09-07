@@ -3,8 +3,7 @@
 ---
 
 ### 🌍 **Project Overview**
-This project addresses the critical challenge of **rapid damaged building detection** in post-disaster scenarios using single high-resolution remote sensing (HRRS) imagery. We introduce the **world's largest globally distributed disaster-damaged building dataset (LHD-134k)** and a novel model **DBSeg-SAM** designed for zero-dependency on pre-disaster baselines, enabling instant mapping in data-sparse regions. [📥](https://github.com/user/repo/releases/download/v2.0/dataset.zip)
-
+This project addresses the critical challenge of **rapid damaged building detection** in post-disaster scenarios using single high-resolution remote sensing (HRRS) imagery. We introduce the **world's largest globally distributed disaster-damaged building dataset (LHD-134k)** and a novel model **DBSeg-SAM** designed for zero-dependency on pre-disaster baselines, enabling instant mapping in data-sparse regions. 
 ### 📌 **Key Innovations**
 - **LHD-134k Dataset**:
   - **Scale & Diversity**: 134,000+ labeled HRRS images covering 12 disaster types across 106 global regions
@@ -17,6 +16,8 @@ This project addresses the critical challenge of **rapid damaged building detect
   - Trained exclusively on LHD-134k for maximum generalization
 
 ### 🔬 **LHD-134k Dataset**
+449G  [📥](https://github.com/user/repo/releases/download/v2.0/dataset.zip)
+
 <img width="100%" height="100%" alt="image" src="https://github.com/user-attachments/assets/141a7a66-aee8-4eff-8ea4-1e459caf99e3" />
 
 #### 1. Down Data
