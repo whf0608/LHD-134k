@@ -1,0 +1,9 @@
+https://opendata.digitalglobe.com/events/lombok-indonesia-earthquake/post-event/2018-08-17/10500100119F7000/10500100119F7000.tif
+https://opendata.digitalglobe.com/events/lombok-indonesia-earthquake/post-event/2018-08-19/104001003F830300/104001003F830300.tif
+https://opendata.digitalglobe.com/events/lombok-indonesia-earthquake/post-event/2018-08-19/1040010040A9A300/1040010040A9A300.tif
+https://opendata.digitalglobe.com/events/lombok-indonesia-earthquake/post-event/2018-08-25/10400100413D2B00/10400100413D2B00.tif
+https://opendata.digitalglobe.com/events/lombok-indonesia-earthquake/post-event/2018-09-06/103001008248FC00/103001008248FC00.tif
+https://opendata.digitalglobe.com/events/lombok-indonesia-earthquake/post-event/2018-09-06/1030010083993F00/1030010083993F00.tif
+https://opendata.digitalglobe.com/events/lombok-indonesia-earthquake/post-event/2018-09-06/1030010084C9B700/1030010084C9B700.tif
+https://opendata.digitalglobe.com/events/lombok-indonesia-earthquake/post-event/2018-09-15/102001007836C800/102001007836C800.tif
+https://opendata.digitalglobe.com/events/lombok-indonesia-earthquake/post-event/2018-09-26/10400100410EAC00/10400100410EAC00.tif

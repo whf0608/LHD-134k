@@ -1,0 +1,9 @@
+https://opendata.digitalglobe.com/events/southern-california-wildfires/post-event/2017-12-07/105001000D4AF000/105001000D4AF000.tif
+https://opendata.digitalglobe.com/events/southern-california-wildfires/post-event/2017-12-09/1040010036A3E800/1040010036A3E800.tif
+https://opendata.digitalglobe.com/events/southern-california-wildfires/post-event/2017-12-09/105001000D517700/105001000D517700.tif
+https://opendata.digitalglobe.com/events/southern-california-wildfires/post-event/2017-12-09/105001000D517A00/105001000D517A00.tif
+https://opendata.digitalglobe.com/events/southern-california-wildfires/post-event/2017-12-10/104001003525AF00/104001003525AF00.tif
+https://opendata.digitalglobe.com/events/southern-california-wildfires/post-event/2017-12-10/10400100353C2C00/10400100353C2C00.tif
+https://opendata.digitalglobe.com/events/southern-california-wildfires/post-event/2017-12-11/10300100742EFD00/10300100742EFD00.tif
+https://opendata.digitalglobe.com/events/southern-california-wildfires/post-event/2017-12-11/103001007430ED00/103001007430ED00.tif
+https://opendata.digitalglobe.com/events/southern-california-wildfires/post-event/2017-12-11/10300100753BCA00/10300100753BCA00.tif

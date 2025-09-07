@@ -1,0 +1,5 @@
+https://opendata.digitalglobe.com/events/kincade-fire/post-event/2019-10-24/1050010019645B00/1050010019645B00.tif
+https://opendata.digitalglobe.com/events/kincade-fire/post-event/2019-10-24/1050010019645C00/1050010019645C00.tif
+https://opendata.digitalglobe.com/events/kincade-fire/post-event/2019-10-24/1050010019645D00/1050010019645D00.tif
+https://opendata.digitalglobe.com/events/kincade-fire/post-event/2019-10-27/103001009B912D00/103001009B912D00.tif
+https://opendata.digitalglobe.com/events/kincade-fire/post-event/2019-10-27/103001009C301100/103001009C301100.tif

@@ -1,0 +1,3 @@
+https://opendata.digitalglobe.com/events/south-sudan-flooding/post-event/2019-09-06/1040010051BBE700/1040010051BBE700.tif
+https://opendata.digitalglobe.com/events/south-sudan-flooding/post-event/2019-09-06/1040010051C36800/1040010051C36800.tif
+https://opendata.digitalglobe.com/events/south-sudan-flooding/post-event/2019-09-11/1040010052B73200/1040010052B73200.tif
