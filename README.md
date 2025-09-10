@@ -8,7 +8,7 @@ This project addresses the critical challenge of **rapid damaged building detect
 - **LHD-134k Dataset**:
   - **Scale & Diversity**: 134,000+ labeled HRRS images covering 12 disaster types across 106 global regions
   - **Resolution**: 0.1-1m spatial resolution for precise building-level damage assessment
-  - **Zero-Baseline Design**: Enables detection using only post-disaster imagery
+  - **Baseline Design**: Enables detection using only post-disaster imagery
 
 - **DBSeg-SAM Model**:
   - Integrates damaged building features into the SAM-CLIP framework
