@@ -110,16 +110,7 @@ python detect.py --image path/to/post_disaster.tif --model_path models/dbseg_sam
 | Wei He (Corr.)       | Wuhan University                | weihe1990@whu.edu.cn   |
 | Naoto Yokoya        | University of Tokyo & RIKEN AIP | yokoya@k.u-tokyo.ac.jp|
 
-### 📜 **Citation**
-```bibtex
-@article{wang2025instantaneous,
-  title={Instantaneous Multi-Hazard Disaster Response: Damaged Building Detection from Single Post-Disaster HRRS Imagery},
-  author={Wang, Haifeng and He, Wei and Yokoya, Naoto},
-  journal={},
-  year={2025},
-  publisher={Springer}
-}
-```
+
 
 
 ---
