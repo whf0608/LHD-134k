@@ -6,6 +6,17 @@ import torch.nn as nn
 from torchvision.models.feature_extraction import create_feature_extractor
 import numpy as np
 import cv2
+import os
+import numpy as np
+import cv2
+import json
+from pathlib import Path
+import torch
+import sys
+from mask_to_cls_subimgs import save_sub_img,box_expend
+import open_clip
+from inference_tool import get_preprocess
+from PIL import Image
 import json
 import math
 import numpy as np
@@ -15,17 +26,15 @@ import torch
 sys.path.append('segment_anything')
 from segment_anything import sam_model_registry, SamAutomaticMaskGenerator, SamPredictor
 
-class BSeg_SAM:
+class HotSam:
     def __init__(self,points_per_side=32,crop_n_layers=0):
         sam_checkpoint = "sam_vit_h_4b8939.pth"
         model_type = "vit_h"
         device = "cuda"
         segmodel_checkpoint = 'last.pth'
-        out_channels = 2
-        resnet = '34'
-        
+        GeoClip_checkpoint = 'GeoClip.pth'
         sam = sam_model_registry[model_type](checkpoint=sam_checkpoint)
-        sam.to(device=device)
+        r=sam.to(device=device)
         self.mask_generator = SamAutomaticMaskGenerator(
                 model=sam,
                 points_per_side=points_per_side,
@@ -40,11 +49,12 @@ class BSeg_SAM:
 
         self.segmodel = SegModel(out_channels= out_channels,resnet=resnet)
         self.segmodel.load_state_dict(torch.load(segmodel_checkpoint,weights_only=False))
-        self.segmodel.test = True
-        self.segmodel.to(device=device)
+        
+        self.clipmodel = ClipModel(self.mask_generator,pretrained=GeoClip_checkpoint )
 
 
     def mask_encode(self,img,point_mask):
+        
         mask_generator = self.mask_generator
         w,h,_ = img.shape
 
@@ -56,15 +66,20 @@ class BSeg_SAM:
                 mask_generator.point_grids[i]=points[labels]/[h,w]
         with torch.no_grad():
             masks = mask_generator.generate(img[:,:,:3])
+            
+
         points_ = []
         masks_img = []
         for mask_ in masks:
-            points_.append(mask_['point_coords'][0])
-            masks_img.append(mask_['segmentation'])
+                points_.append(mask_['point_coords'][0])
+                masks_img.append(mask_['segmentation'])
+            
+        if self.clipmodel:
+            _,labels= self.clipmodel.detection(masks,img)
 
         return masks_img,masks,points,labels,points_
 
-    def imagemask_deal(self,img,mask_erode=None):
+    def imagemask_deal(self,img,label,mask_erode=None):
         label = self.segmodel(img)
         labels_ = None
         if mask_erode:
@@ -124,6 +139,77 @@ def mask2vct(masks,rdp_use=True,rdp_v=2):
             if rdp_use:points = rdp(np.array(points),rdp_v)
             pointss.append(list(points))
     return pointss
+
+
+class ClipModel:
+    def __init__(self,mask_generator,clip_model='open_clip',pretrained="GeoClip.pth"):
+
+        self.mask_generator =  mask_generator
+        self.labels = ["background","building","damaged_building"]
+        model, _, _ = open_clip.create_model_and_transforms(clip_model, pretrained=pretrained)
+        model.load_state_dict(torch.load(clip_model, map_location="cpu"), strict=False)
+        self.clipmodel = model.to("cuda")
+        
+        self.img_preprocess = get_preprocess(image_resolution=224)
+        self.tokenizer = open_clip.get_tokenizer(clip_model)
+        
+    def clipdetection_(self,image,labels=None):
+        if type(image) == str:
+            image = Image.open(f)
+        if labels:
+            self.labels = labels
+        image = self.img_preprocess(image).unsqueeze(0).half().to("cuda")
+        text = self.tokenizer(self.labels).to("cuda")
+        with torch.no_grad(), torch.cuda.amp.autocast():
+            image_features = self.clipmodel .encode_image(image)
+            text_features = self.clipmodel .encode_text(text)
+            image_features /= image_features.norm(dim=-1, keepdim=True)
+            text_features /= text_features.norm(dim=-1, keepdim=True)
+
+            text_probs = (100.0 * image_features @ text_features.T).softmax(dim=-1)
+            
+        sorted_x, indices = torch.sort(text_probs, descending=True)
+        indice = indices.cpu().numpy()[0]
+        text_prob = text_probs.cpu().numpy()[0]
+        labels_config={}
+        
+        for index in indice:
+            labels_config[self.labels[index]]= text_prob[index]
+            
+        return labels_config
+ 
+
+    def detection(self,masks,img):
+        label_config_clip={}
+        label_config ={}
+        for i,mask in  enumerate(masks[0:]):
+            sub_img = clip_subimg(mask,img)
+            if sub_img is None: continue
+            image = Image.fromarray(sub_img)
+            result_tags =self.clipdetection_(image)
+            label_config_clip[str(i)] = result_tags
+            detection_object=[]
+            for k0 in result_tags.keys():
+                if k0 in self.used_tags or k0+'s' in self.used_tags:
+                        detection_object.append(k0)
+                if len(detection_object)>0:
+                        label_config[str(i)] = detection_object[0]
+
+        return label_config_clip,label_config
+    
+def clip_subimg(mask,img):
+        image0 = img.copy()
+        image0[mask['segmentation'] == False] = [0, 0, 0]
+        bbox = mask['bbox']
+        box = np.array(bbox, np.integer)
+        box[2]+=box[0]
+        box[3]+=box[1]
+        w,h = image0.shape[:2]
+        box = box_expend(box,w,h)
+        object_i = img[box[1]:box[3], box[0]:box[2]]
+        object_i = cv2.cvtColor(object_i, cv2.COLOR_RGB2BGR)
+        return object_i
+
 
 
 class SegModel(nn.Module):
