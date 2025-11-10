@@ -44,7 +44,7 @@ class BSeg_SAM:
         self.segmodel.to(device=device)
 
 
-    def model_deal_img(self,img,point_mask):
+    def mask_encode(self,img,point_mask):
         mask_generator = self.mask_generator
         w,h,_ = img.shape
 
@@ -82,7 +82,7 @@ class BSeg_SAM:
         
         for i in range(label_.max()):
             point_mask = label_==(1+i)
-            masks_img,masks, points,labels,points_ = self.model_deal_img(img,point_mask)
+            masks_img,masks, points,labels,points_ = self.mask_encode(img,point_mask)
             maskvcts = mask2vct(masks_img,rdp_use=False,rdp_v=2)
             for points_ in maskvcts[0:]:
                     points = np.array(points_, np.float64)
