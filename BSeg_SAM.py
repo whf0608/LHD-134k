@@ -1,29 +1,20 @@
 import torch
-import torch.nn.functional as F
 import torchvision
-import torch
+import torch.nn.functional as F
 import torch.nn as nn
 from torchvision.models.feature_extraction import create_feature_extractor
-import numpy as np
 import cv2
 import os
-import numpy as np
-import cv2
 import json
-from pathlib import Path
-import torch
 import sys
-from mask_to_cls_subimgs import save_sub_img,box_expend
-import open_clip
-from inference_tool import get_preprocess
-from PIL import Image
-import json
 import math
+import open_clip
+from pathlib import Path
 import numpy as np
-import sys
-import geojson
-import torch
+
 sys.path.append('segment_anything')
+sys.path.append('GeoClip')
+from inference_tool import get_preprocess
 from segment_anything import sam_model_registry, SamAutomaticMaskGenerator, SamPredictor
 
 class HotSam:
