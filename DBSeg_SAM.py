@@ -17,7 +17,7 @@ sys.path.append('GeoClip')
 from inference_tool import get_preprocess
 from segment_anything import sam_model_registry, SamAutomaticMaskGenerator, SamPredictor
 
-class BSeg_SAM:
+class DBSeg_SAM:
     def __init__(self,points_per_side=32,crop_n_layers=0):
         sam_checkpoint = "sam_vit_h_4b8939.pth"
         model_type = "vit_h"
