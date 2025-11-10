@@ -21,9 +21,11 @@ class BSeg_SAM:
         model_type = "vit_h"
         device = "cuda"
         segmodel_checkpoint = 'last.pth'
+        out_channels = 2
+        resnet = '34'
         
         sam = sam_model_registry[model_type](checkpoint=sam_checkpoint)
-        r=sam.to(device=device)
+        sam.to(device=device)
         self.mask_generator = SamAutomaticMaskGenerator(
                 model=sam,
                 points_per_side=points_per_side,
@@ -38,11 +40,10 @@ class BSeg_SAM:
 
         self.segmodel = SegModel(out_channels= out_channels,resnet=resnet)
         self.segmodel.load_state_dict(torch.load(segmodel_checkpoint,weights_only=False))
-
+        self.segmodel.to(device=device)
 
 
     def model_deal_img(self,img,point_mask):
-        
         mask_generator = self.mask_generator
         w,h,_ = img.shape
 
@@ -62,7 +63,7 @@ class BSeg_SAM:
 
         return masks_img,masks,points,labels,points_
 
-    def imagemask_deal(self,img,label,mask_erode=None):
+    def imagemask_deal(self,img,mask_erode=None):
         label = self.segmodel(img)
         labels_ = None
         if mask_erode:
