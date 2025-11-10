@@ -1,7 +1,7 @@
 # LHD-134k: <small>A Global Multi-Hazard Dataset for Post-Disaster Building Damage Detection in High-Resolution Remote Sensing Imagery</small>  
 
 ---
-### 🌍 **Home** ([🏠](http://frp9.aaszxc.asia:12365/lhd134k/))
+### 🏠 **Home** ([🏠](http://frp9.aaszxc.asia:12365/lhd134k/))
 
 ### 🌍 **Project Overview**
 This project addresses the critical challenge of **rapid damaged building detection** in post-disaster scenarios using single high-resolution remote sensing (HRRS) imagery. We introduce the **world's largest globally distributed disaster-damaged building dataset (LHD-134k)** and a novel model **DBSeg-SAM** designed for zero-dependency on pre-disaster baselines, enabling instant mapping in data-sparse regions. 
