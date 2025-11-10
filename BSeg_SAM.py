@@ -40,6 +40,7 @@ class BSeg_SAM:
 
         self.segmodel = SegModel(out_channels= out_channels,resnet=resnet)
         self.segmodel.load_state_dict(torch.load(segmodel_checkpoint,weights_only=False))
+        self.segmodel.test = True
         self.segmodel.to(device=device)
 
 
