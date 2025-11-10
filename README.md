@@ -1,4 +1,4 @@
-# **Instantaneous Multi-Hazard Disaster Response**: <small>Damaged Building Detection from Single Post-Disaster HRRS Imagery for Rapid Global Mapping in Data-Sparse Regions Without Pre-Disaster Baselines</small>  
+# **LHD-134k: **: <small>A Global Multi-Hazard Dataset for Post-Disaster Building Damage Detection in High-Resolution Remote Sensing Imagery</small>  
 
 ---
 
