@@ -70,7 +70,7 @@ class DBSeg_SAM:
 
         return masks_img,masks,points,labels,points_
 
-    def imagemask_deal(self,img,label,mask_erode=None):
+    def imagemask_deal(self,img,mask_erode=None):
         label = self.segmodel(img)
         labels_ = None
         if mask_erode:
