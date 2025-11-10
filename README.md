@@ -77,10 +77,3 @@ python detect.py --image path/to/post_disaster.tif --model_path models/dbseg_sam
 | Wei He (Corr.)       | Wuhan University                | weihe1990@whu.edu.cn   |
 | Naoto Yokoya        | University of Tokyo & RIKEN AIP | yokoya@k.u-tokyo.ac.jp|
 
-
-
-
----
-
-*© 2025 State Key Laboratory of Information Engineering in Surveying, Wuhan University.
-```
