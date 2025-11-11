@@ -1,4 +1,4 @@
-# LHD-134k: <small>A Global Multi-Hazard Dataset for Post-Disaster Building Damage Detection in High-Resolution Remote Sensing Imagery</small>  
+# LHD-134k: <small>A Global Multi-Hazard Dataset for Post-Disaster Damaged Building Mapping in High-Resolution Remote Sensing Imagery</small>  
 
 ---
 ### 🏠 **Home** ([🏠](http://frp9.aaszxc.asia:12365/lhd134k/))
