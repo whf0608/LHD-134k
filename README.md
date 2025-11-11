@@ -50,8 +50,7 @@ python make_datatset.py
 
 ### 🚀 **Model**
 
-<img width="100%" height="100%" alt="image"  alt="image" src="https://github.com/user-attachments/assets/a968dc64-ce2f-444f-a7ba-faf392450a71" />
-
+<img width="100%" height="100%" alt="image"  alt="image" src="https://github.com/user-attachments/assets/f489d2fd-e1b6-4799-b676-0587f3a0e4cf" />
 
 
 **Generalization Performance**:  
